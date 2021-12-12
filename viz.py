@@ -33,6 +33,7 @@ model.fit(X_train, y_train)
 
 st.markdown("# Credit card customer churn")
 st.markdown("## Which customers are more likely to leave? ")
+st.markdown('*Switch to light theme in the setting menu on the right side for easy readability.*')
 st.markdown("The objective of this study is to find out what are the certain indicators that are observable for a customer that might unsubscribe from a bank's credit card service. As a bank, we wish to **retain our customers** and keep them happy, as our profits depend on their usage. Thus it becomes important for us to understand which customers are **more likely to leave** and when is the most **opportune time** to do something about it. ")
 st.markdown("The study is done using a dataset created by the bank containing **user data** and **user behavior information**, containing personal details like marital status, age, gender, number of dependents, educational background and user behavior like the number of months inactive on the card, total amount of all transactions,total number of transactions, revolving balance, amount change over quarters etc.")
 st.markdown("#### Attrited vs Existing Customers")
